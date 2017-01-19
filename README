@@ -1,0 +1,17 @@
+***Ce projet a été entierement fait avec l'IDE Netbeans, en l'ouvrant avec ce dernier vous pourrez donc l'executé directement avec le 'Run'
+***Un Makefile est aussi fourni donc sur le terminal vous pourrez compiler le projet en effectuant la ligne de commande 'make all' dans le dossier Projet
+
+***compilation : make all
+execution : ./Project/dist/Debug/GNU-Linux/project 
+choisir Jeu
+	Taquin --> 1
+	2048 --> 2
+choisir Joueur
+	Humain --> 1
+	Robot --> 2
+
+Entrez la taille de la grille ?
+       n>=2
+
+
+Puis jouer avec les touches 1 2 3 ou 5
