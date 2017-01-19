@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS HEADER.
+
+Copyright (c) 2009, 2016 Oracle and/or its affiliates. All rights reserved.
+
+Oracle and Java are registered trademarks of Oracle and/or its affiliates.
+Other names may be trademarks of their respective owners.
+
+The contents of this file are subject to the terms of either the GNU
+General Public License Version 2 only ("GPL") or the Common
+Development and Distribution License("CDDL") (collectively, the
+"License"). You may not use this file except in compliance with the
+License. You can obtain a copy of the License at
+http://www.netbeans.org/cddl-gplv2.html
+or nbbuild/licenses/CDDL-GPL-2-CP. See the License for the
+specific language governing permissions and limitations under the
+License.  When distributing the software, include this License Header
+Notice in each file and include the License file at
+nbbuild/licenses/CDDL-GPL-2-CP.  Oracle designates this
+particular file as subject to the "Classpath" exception as provided
+by Oracle in the GPL Version 2 section of the License file that
+accompanied this code. If applicable, add the following below the
+License Header, with the fields enclosed by brackets [] replaced by
+your own identifying information:
+"Portions Copyrighted [year] [name of copyright owner]"
+
+If you wish your version of this file to be governed by only the CDDL
+or only the GPL Version 2, indicate your decision by adding
+"[Contributor] elects to include this software in this distribution
+under the [CDDL or GPL Version 2] license." If you do not indicate a
+single choice of license, a recipient has the option to distribute
+your version of this file under either the CDDL, the GPL Version 2 or
+to extend the choice of license to its licensees as provided above.
+However, if you add GPL Version 2 code and therefore, elected the GPL
+Version 2 license, then the option applies only if the new code is
+made subject to such option by the copyright holder.
+
+Contributor(s):
+-->
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>Case.h</itemPath>
+      <itemPath>Case_Entier.h</itemPath>
+      <itemPath>Case_Vide.h</itemPath>
+      <itemPath>Grille.h</itemPath>
+      <itemPath>Grille_2048.h</itemPath>
+      <itemPath>Grille_2048_VarN.h</itemPath>
+      <itemPath>Grille_2048_VarT.h</itemPath>
+      <itemPath>Grille_Taquin.h</itemPath>
+      <itemPath>Joueur/Joueur.h</itemPath>
+      <itemPath>JoueurHumain.h</itemPath>
+      <itemPath>JoueurRobot.h</itemPath>
+      <itemPath>TCase.tcc</itemPath>
+      <itemPath>welcome.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+      <logicalFolder name="SourceFiles"
+                     displayName="Source Files"
+                     projectFiles="true">
+        <itemPath>Case.cpp</itemPath>
+        <itemPath>Case_Entier.cpp</itemPath>
+        <itemPath>Case_Vide.cpp</itemPath>
+        <itemPath>Grille.cpp</itemPath>
+        <itemPath>Grille_2048.cpp</itemPath>
+        <itemPath>Grille_2048_VarN.cpp</itemPath>
+        <itemPath>Grille_2048_VarT.cpp</itemPath>
+        <itemPath>Grille_Taquin.cpp</itemPath>
+        <itemPath>Joueur.cpp</itemPath>
+        <itemPath>JoueurHumain.cpp</itemPath>
+        <itemPath>JoueurRobot.cpp</itemPath>
+        <itemPath>run.cc</itemPath>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+    <itemPath>TCase.cpp</itemPath>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+      </compileType>
+      <item path="Case.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Case.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Case_Entier.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Case_Entier.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Case_Vide.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Case_Vide.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Grille.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Grille.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Grille_2048.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Grille_2048.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Grille_2048_VarN.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Grille_2048_VarN.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Grille_2048_VarT.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Grille_2048_VarT.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Grille_Taquin.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Grille_Taquin.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Joueur.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Joueur/Joueur.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="JoueurHumain.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="JoueurHumain.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="JoueurRobot.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="JoueurRobot.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="TCase.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="TCase.tcc" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="run.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="welcome.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="Case.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Case.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Case_Entier.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Case_Entier.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Case_Vide.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Case_Vide.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Grille.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Grille.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Grille_2048.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Grille_2048.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Grille_2048_VarN.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Grille_2048_VarN.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Grille_2048_VarT.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Grille_2048_VarT.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Grille_Taquin.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Grille_Taquin.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Joueur.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Joueur/Joueur.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="JoueurHumain.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="JoueurHumain.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="JoueurRobot.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="JoueurRobot.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="TCase.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="TCase.tcc" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="run.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="welcome.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
